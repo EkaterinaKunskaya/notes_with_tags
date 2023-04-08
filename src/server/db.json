@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "name": "Study",
+      "description": "Rewrite the JavaScript synopsis",
+      "tags": "Study JavaScript",
+      "id": "e2cab0d138"
+    },
+    {
+      "id": "38d128c1ad",
+      "name": "Work",
+      "description": "Contact of the new supplier: +375 29 999 99 99",
+      "tags": "Work"
+    },
+    {
+      "id": "f213d78259",
+      "name": "Home",
+      "description": "Shopping list: milk, eggs, bread, sausages",
+      "tags": "Home Shopping ShoppingList"
+    },
+    {
+      "id": "c114f8ee99",
+      "name": "Home",
+      "description": "Animals. Cat weight - 5 kg, dog weight - 12 kg",
+      "tags": "Home Animals Cat Dog"
+    },
+    {
+      "id": "edcbe07dbe",
+      "name": "Goals",
+      "description": "Goals for the spring: learn TypeScript, relax in nature, study on the frontend",
+      "tags": "Goals TypeScript frontend"
+    },
+    {
+      "id": "4ff46c7425",
+      "name": " Study",
+      "description": "Rewrite the  JavaScript synopsis",
+      "tags": " JavaScript"
+    },
+    {
+      "id": "4df6bc62e0",
+      "name": "Study",
+      "description": "Learn new words",
+      "tags": "Study words"
+    },
+    {
+      "name": "Home",
+      "description": " Shopping  list: eggs, bread, sugar",
+      "tags": " shopping list",
+      "id": "c4137bad0b"
+    },
+    {
+      "name": "Study",
+      "description": " Learn  new  language(Spanish)",
+      "tags": " learn new",
+      "id": "5db2411dce"
+    }
+  ]
+}

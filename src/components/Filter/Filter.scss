@@ -1,0 +1,39 @@
+@import '../../index';
+
+.filter__container {
+    background-color: white;
+    box-shadow: $box-shadow;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: $border-radius;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .filter__input {
+        width: 80%;
+        height: 40px;
+        background: #FFFFFF;
+        @include border($input-border);
+        border-radius: $border-radius;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        padding: 0 25px;
+        outline: none;
+        margin: 20px 0;
+    }
+    
+    .filter__searching-result {
+        min-height: 50px;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .filter__button-container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

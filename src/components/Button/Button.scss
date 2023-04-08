@@ -1,0 +1,35 @@
+@import '../../index';
+
+.button {
+    border-radius:$border-radius;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button-red {
+    @include border($red-border);
+    color: $red;
+
+    &:hover {
+        background-color: $red-hover;
+    }
+}
+
+.button-orange {
+    @include border($orange-border);
+    color: $orange;
+
+    &:hover {
+        background-color: $orange-hover;
+    }
+}
+
+.button-blue {
+    @include border($blue-border);
+    color: $blue;
+
+    &:hover {
+        background-color: $blue-hover;
+    }
+}

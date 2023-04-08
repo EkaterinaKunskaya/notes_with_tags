@@ -1,0 +1,44 @@
+@import '../../index';
+
+.item__container {
+    background-color: white;
+    box-shadow: $box-shadow;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: $border-radius;
+
+    .item__container-content {
+        .item__title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .item__description {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        .item__tags {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+
+            .item__tag {
+                height: 30px;
+                display: inline-block;
+                padding: 5px 10px;
+                background-color: $tag;
+                border-radius: $border-radius;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .item__button-container {
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,64 @@
+@import '../../index';
+
+.panel__container {
+    background-color: white;
+    box-shadow: $box-shadow;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 30px;
+    border-radius: $border-radius;
+
+    .panel__fields-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .panel__field-container {
+            width: 100%;
+
+            label {
+                gap: 5px;
+                font-size: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .panel__text {
+                    width: 80%;
+                }
+
+                .panel__input {
+                    width: 80%;
+                    height: 40px;
+                    background: #FFFFFF;
+                    @include border($input-border);
+                    border-radius: $border-radius;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    padding: 10px;
+                    outline: none;
+                    margin: 20px 0;
+                }
+
+                #description {
+                    min-height: 100px;
+                }
+            }
+        }
+    }
+
+    .panel__button-container {
+        width: 100%;
+        text-align: right;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+    }
+}
+
+
+
+
+
